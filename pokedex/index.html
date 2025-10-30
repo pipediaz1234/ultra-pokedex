@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>⚡ POKÉDEX ULTRA PRO ⚡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-layer"></div>
+  
+  <!-- Partículas Pokéball flotantes -->
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+  <div class="particle"></div>
+
+  <!-- Banner de música -->
+  <div class="music-banner" id="music-banner">
+    🎵 ¡Haz clic para activar la música épica de Pokémon! 🎵
+  </div>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo-mega">
+        <div class="pokeball-logo"></div>
+        <h1 class="title-ultra">POKÉDEX</h1>
+        <div class="pokeball-logo"></div>
+      </div>
+      <p class="subtitle-epic">⚡ ULTRA GAMING EDITION ⚡</p>
+    </header>
+
+    <div class="search-mega">
+      <div class="search-wrapper">
+        <div class="search-input-container">
+          <input 
+            type="text" 
+            id="pokemon-name" 
+            placeholder="Escribe el nombre del Pokémon..."
+            autocomplete="off"
+          />
+          <button class="btn-search" id="search-btn">🎮 BUSCAR</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección de comparación -->
+    <div class="comparison-section" id="comparison-section" style="display: none;">
+      <h2 class="comparison-title">⚔️ COMPARACIÓN DE POKÉMON ⚔️</h2>
+      <div class="comparison-container">
+        <div class="comparison-card" id="pokemon1-card">
+          <div class="comparison-header">
+            <h3 class="comparison-name" id="pokemon1-name">Pokémon 1</h3>
+            <div class="comparison-number" id="pokemon1-number">#000</div>
+          </div>
+          <div class="comparison-sprite">
+            <img id="pokemon1-sprite" src="" alt="Pokémon 1" />
+          </div>
+          <div class="comparison-stats" id="pokemon1-stats">
+            <!-- Stats se llenarán con JavaScript -->
+          </div>
+        </div>
+        <div class="comparison-card" id="pokemon2-card">
+          <div class="comparison-header">
+            <h3 class="comparison-name" id="pokemon2-name">Pokémon 2</h3>
+            <div class="comparison-number" id="pokemon2-number">#000</div>
+          </div>
+          <div class="comparison-sprite">
+            <img id="pokemon2-sprite" src="" alt="Pokémon 2" />
+          </div>
+          <div class="comparison-stats" id="pokemon2-stats">
+            <!-- Stats se llenarán con JavaScript -->
+          </div>
+        </div>
+      </div>
+      <div class="comparison-buttons">
+        <button class="btn-compare" id="add-to-compare">AGREGAR A COMPARACIÓN</button>
+        <button class="btn-compare" id="clear-comparison">LIMPIAR COMPARACIÓN</button>
+        <button class="btn-compare" id="battle-btn">⚔️ SIMULAR BATALLA ⚔️</button>
+      </div>
+      <div id="battle-result" style="display: none;">
+        <!-- Resultado de la batalla se mostrará aquí -->
+      </div>
+    </div>
+
+    <div id="pokemon-info">
+      <div class="placeholder-box">
+        <h2>🎮 COMIENZA TU AVENTURA 🎮</h2>
+        <p>Ingresa el nombre de tu Pokémon favorito y descubre sus increíbles estadísticas</p>
+        <p style="margin-top: 20px; color: #ff00de; font-weight: 700;">
+          Prueba con: Pikachu • Charizard • Mewtwo • Dragonite • Lucario
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controles de música -->
+  <div class="music-controls">
+    <button class="music-btn" id="music-toggle">🔇</button>
+    <button class="music-btn" id="sound-toggle">🔊</button>
+  </div>
+
+  <div class="loading-screen" id="loading">
+    <div class="pokeball-spinner"></div>
+    <div class="loading-text">CARGANDO...</div>
+  </div>
+
+  <!-- Reproductor de YouTube oculto -->
+  <div id="youtube-player"></div>
+
+  <!-- API de YouTube -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
