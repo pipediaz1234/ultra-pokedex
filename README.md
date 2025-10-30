@@ -72,6 +72,31 @@ async function searchPokemon(name) {
 
 🔗 **Demo en vivo:** [pokedex-interactivo.netlify.app](https://pokedex-interactivo.netlify.app/)
 
+# Movil:
+
+para movil sirve como pokedex solo puedes ver los pokemones no puedes comparar o simular pelea (cuando abaras la pagina desde un movil)
+
+---
+# Abrir desde un PC:
+cuando los abras por PC sirve como pokedex,ver comparacion de pokemones y simular batalla
+
+---
+# ⌨️ Funciones de las teclas
+
+Estas combinaciones dependen del código implementado, pero comúnmente en una Pokédex como la tuya se usan así:
+
+R (tecla R sola) → 🔁 Refrescar la Pokédex
+Recarga o reinicia la interfaz para volver al estado inicial, limpiando la búsqueda o selección actual.
+(En algunos casos, puede recargar aleatoriamente un Pokémon o una animación de entrada.)
+
+Ctrl + R (Control + R) → 🔄 Recargar la página completa
+Es un atajo del navegador, no del proyecto.
+Recarga todo el sitio web desde el servidor, reiniciando completamente la Pokédex.
+(Útil si el proyecto se bloquea o si quieres reiniciar todo el entorno.)
+
+C (tecla C sola) → ⚔️ Comparar Pokémon o limpiar la comparación
+Generalmente sirve para activar el modo de comparación entre dos Pokémon o para cancelar la comparación actual, dependiendo de cómo esté programado el script
+
 ---
 
 ## 👨‍💻 Autor
