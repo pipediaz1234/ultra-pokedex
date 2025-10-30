@@ -83,8 +83,6 @@ cuando los abras por PC sirve como pokedex,ver comparacion de pokemones y simula
 ---
 # ⌨️ Funciones de las teclas
 
-Estas combinaciones dependen del código implementado, pero comúnmente en una Pokédex como la tuya se usan así:
-
 R (tecla R sola) → 🔁 Refrescar la Pokédex
 Recarga o reinicia la interfaz para volver al estado inicial, limpiando la búsqueda o selección actual.
 (En algunos casos, puede recargar aleatoriamente un Pokémon o una animación de entrada.)
